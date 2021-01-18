@@ -20,9 +20,9 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">7",
-    "lessmore92/php-ripple-keypairs": "v1.0.0",
-    "lessmore92/php-ripple-binary-codec": "v1.0.0",
-    "guzzlehttp/guzzle": "7.0"
+    "lessmore92/php-ripple-keypairs": "^v1.0",
+    "lessmore92/php-ripple-binary-codec": "^v1.0",
+    "guzzlehttp/guzzle": "^6.3"
   },
   "autoload": {
     "psr-4": {
