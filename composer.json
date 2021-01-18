@@ -1,0 +1,32 @@
+{
+  "name": "lessmore92/php-ripple-lib",
+  "description": "PHP API for interacting with the XRP Ledger",
+  "keywords": [
+    "ripple",
+    "xrp-ledger",
+    "xrp",
+    "ripple-blockchain",
+    "ripple-api",
+    "xrpl"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lessmore92",
+      "email": "bahramisoft@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">7",
+    "lessmore92/php-ripple-keypairs": "v1.0.0",
+    "lessmore92/php-ripple-binary-codec": "v1.0.0",
+    "guzzlehttp/guzzle": "7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Lessmore92\\Ripple\\": "src/"
+    }
+  }
+}
