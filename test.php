@@ -1,16 +1,10 @@
-# php-ripple-lib
-PHP API for interacting with the XRP Ledger
-
-Upgrade guzzle to version 7.*
-
-Min php supported version 7.2
-
-## Installation
-`composer require lessmore92/php-ripple-lib`
-
-
-## Sample Usage
-```php
+<pre>
+<?php
+/**
+ * User: Lessmore92
+ * Date: 6/11/2023
+ * Time: 8:01 PM
+ */
 require_once "vendor/autoload.php";
 
 $options = [
@@ -31,5 +25,3 @@ var_dump($txs);
 
 $fee = $api->getFee();
 var_dump($fee);
-
-```
